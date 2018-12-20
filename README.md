@@ -11,3 +11,6 @@
 
 ---
 * img[ 80,80 ] -> 80 e 80 pixelindeki değer nedir [20,24,35]
+---
+
+ret, thresh1 = cv2.threshold(img, 127, 255) -> 127 den yukarısını alır
