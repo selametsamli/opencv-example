@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a70c6f-b009-4597-9b4f-fdeae7bd52a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/level_up/corner_detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_up/kose-bulma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_up/object_detection/ana-resim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_up/object_detection/object_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_up/object_detection/template.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_up/corner_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_up/corner_detection/corner_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_up/kose-bulma.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/level_up/corner_detection/kose-bulma.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +21,14 @@
     <SUITE FILE_PATH="coverage/opencv_example$erosion_dilation.coverage" NAME="erosion_dilation Coverage Results" MODIFIED="1545497465281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Morphology" />
     <SUITE FILE_PATH="coverage/opencv_example$blurring.coverage" NAME="blurring Coverage Results" MODIFIED="1545337819415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
     <SUITE FILE_PATH="coverage/opencv_example$threshold.coverage" NAME="threshold Coverage Results" MODIFIED="1545496951967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/thresholding" />
-    <SUITE FILE_PATH="coverage/opencv_example$erosion_dilation_img.coverage" NAME="erosion_dilation_img Coverage Results" MODIFIED="1545498325451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Morphology" />
-    <SUITE FILE_PATH="coverage/opencv_example$canny.coverage" NAME="canny Coverage Results" MODIFIED="1545338858464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
     <SUITE FILE_PATH="coverage/opencv_example$threshold_2.coverage" NAME="threshold_2 Coverage Results" MODIFIED="1545395298843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/thresholding" />
-    <SUITE FILE_PATH="coverage/opencv_example$canny_image.coverage" NAME="canny_image Coverage Results" MODIFIED="1545342513050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/canny" />
     <SUITE FILE_PATH="coverage/opencv_example$adaptive_thresholding.coverage" NAME="adaptive_thresholding Coverage Results" MODIFIED="1545341756625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/gauss_mean" />
     <SUITE FILE_PATH="coverage/opencv_example$otsu_threshold.coverage" NAME="otsu_threshold Coverage Results" MODIFIED="1545393469542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/otsu" />
     <SUITE FILE_PATH="coverage/opencv_example$color_detection.coverage" NAME="color_detection Coverage Results" MODIFIED="1545338079074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
+    <SUITE FILE_PATH="coverage/opencv_example$erosion_dilation_img.coverage" NAME="erosion_dilation_img Coverage Results" MODIFIED="1545498325451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Morphology" />
+    <SUITE FILE_PATH="coverage/opencv_example$canny.coverage" NAME="canny Coverage Results" MODIFIED="1545338858464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
+    <SUITE FILE_PATH="coverage/opencv_example$canny_image.coverage" NAME="canny_image Coverage Results" MODIFIED="1545342513050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/canny" />
+    <SUITE FILE_PATH="coverage/opencv_example$object_detection.coverage" NAME="object_detection Coverage Results" MODIFIED="1545499777019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up/object_detection" />
     <SUITE FILE_PATH="coverage/opencv_example$arithmetic_operations.coverage" NAME="arithmetic_operations Coverage Results" MODIFIED="1545395267717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_image_operations/aritmetik_islemler/basic" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -40,27 +45,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="25" />
+          <entry key="py" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="md" value="327" />
-          <entry key="py" value="4597" />
+          <entry key="md" value="421" />
+          <entry key="py" value="5151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="327" />
+          <entry key="Markdown" value="421" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="4597" />
+          <entry key="Python" value="5151" />
         </counts>
       </usages-collector>
     </session>
@@ -89,25 +94,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/level_up/corner_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="420">
+                <caret line="28" column="97" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="97" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/level_up/object_detection/object_detection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="117" selection-start-line="17" selection-start-column="117" selection-end-line="17" selection-end-column="117" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,6 +146,7 @@
         <option value="$PROJECT_DIR$/Morphology/erosion_dilation_img.py" />
         <option value="$PROJECT_DIR$/level_up/corner_detection.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/level_up/object_detection/object_detection.py" />
       </list>
     </option>
   </component>
@@ -206,12 +212,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/level_up/corner_detection" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/level_up/object_detection" />
       <recent name="$PROJECT_DIR$/level_up" />
       <recent name="$PROJECT_DIR$/Morphology" />
       <recent name="$PROJECT_DIR$/filter_operations/thresholding" />
       <recent name="$PROJECT_DIR$/filter_operations/otsu" />
-      <recent name="$PROJECT_DIR$/filter_operations/gauss_mean" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.corner_detection">
+  <component name="RunManager" selected="Python.object_detection">
     <configuration name="corner_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv-example" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,7 +249,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_up/corner_detection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_up/corner_detection/corner_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,6 +302,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="object_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencv-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/level_up/object_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_up/object_detection/object_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="threshold" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv-example" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -315,42 +346,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="threshold_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv-example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/filter_operations/thresholding" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter_operations/thresholding/threshold_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.threshold_2" />
       <item itemvalue="Python.threshold" />
       <item itemvalue="Python.erosion_dilation" />
       <item itemvalue="Python.erosion_dilation_img" />
       <item itemvalue="Python.corner_detection" />
+      <item itemvalue="Python.object_detection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.object_detection" />
         <item itemvalue="Python.corner_detection" />
         <item itemvalue="Python.erosion_dilation_img" />
         <item itemvalue="Python.erosion_dilation" />
         <item itemvalue="Python.threshold" />
-        <item itemvalue="Python.threshold_2" />
       </list>
     </recent_temporary>
   </component>
@@ -369,14 +378,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16558966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16558966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28219178" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28219178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -509,6 +517,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/level_up/corner_detection/corner_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="420">
+            <caret line="28" column="97" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="97" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Morphology/erosion_dilation_img.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -519,23 +547,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/level_up/corner_detection.py">
+    <entry file="file://$PROJECT_DIR$/level_up/object_detection/object_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="53" />
+        <state relative-caret-position="255">
+          <caret line="17" column="117" selection-start-line="17" selection-start-column="117" selection-end-line="17" selection-end-column="117" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

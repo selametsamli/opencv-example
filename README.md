@@ -23,3 +23,7 @@ cv2.MORPH_CLOSE -> istediğimiz renk dışında renk varsa bu rengin görünürl
 
 
 cv2.goodFeaturesToTrack(görsel, maksimum nokta sayısı, hassasiyet, mesafe)
+
+w, h = object.shape[::-1] -> 3. ve 4. parametreyi alır.
+
+cv2.matchTemplate(img_gray, object, cv2.TM_CCOEFF_NORMED) -> resmin gri tonunuda eşleştirme arar.
