@@ -27,3 +27,6 @@ cv2.goodFeaturesToTrack(görsel, maksimum nokta sayısı, hassasiyet, mesafe)
 w, h = object.shape[::-1] -> 3. ve 4. parametreyi alır.
 
 cv2.matchTemplate(img_gray, object, cv2.TM_CCOEFF_NORMED) -> resmin gri tonunuda eşleştirme arar.
+
+
+cv2.rectangle(img, sol_üst_köşe, sağ_alt_köşe, renk, kalınlık)

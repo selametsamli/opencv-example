@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a70c6f-b009-4597-9b4f-fdeae7bd52a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/level_up/image_matcher/buyuk-resim.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_up/image_matcher/image_matcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_up/image_matcher/kucuk-resim.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/face_recognition/face_recognition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/face_recognition/haarcascade-frontalface-default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/face_recognition/kalabalik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/face_recognition/kalabalik2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/face_recognition/yuz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/face_recognition/yuz2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/face_recognition/yuz3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/face_recognition_cam/face_recognition_cam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/face_recognition_cam/haarcascade-frontalface-default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +27,11 @@
     <SUITE FILE_PATH="coverage/opencv_example$threshold.coverage" NAME="threshold Coverage Results" MODIFIED="1545496951967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/thresholding" />
     <SUITE FILE_PATH="coverage/opencv_example$threshold_2.coverage" NAME="threshold_2 Coverage Results" MODIFIED="1545395298843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/thresholding" />
     <SUITE FILE_PATH="coverage/opencv_example$image_matcher.coverage" NAME="image_matcher Coverage Results" MODIFIED="1545502664953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up/image_matcher" />
+    <SUITE FILE_PATH="coverage/opencv_example$face_recognition_cam.coverage" NAME="face_recognition_cam Coverage Results" MODIFIED="1545512295381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/face_recognition_cam" />
     <SUITE FILE_PATH="coverage/opencv_example$adaptive_thresholding.coverage" NAME="adaptive_thresholding Coverage Results" MODIFIED="1545341756625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/gauss_mean" />
     <SUITE FILE_PATH="coverage/opencv_example$otsu_threshold.coverage" NAME="otsu_threshold Coverage Results" MODIFIED="1545393469542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/otsu" />
+    <SUITE FILE_PATH="coverage/opencv_example$face_recognition.coverage" NAME="face_recognition Coverage Results" MODIFIED="1545511403836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/face_recognition" />
+    <SUITE FILE_PATH="coverage/opencv_example$frotalface_video.coverage" NAME="frotalface-video Coverage Results" MODIFIED="1545512068200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/opencv_example$color_detection.coverage" NAME="color_detection Coverage Results" MODIFIED="1545338079074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
     <SUITE FILE_PATH="coverage/opencv_example$resimden_metin_okuma.coverage" NAME="resimden-metin-okuma Coverage Results" MODIFIED="1545501767893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/opencv_example$erosion_dilation_img.coverage" NAME="erosion_dilation_img Coverage Results" MODIFIED="1545498325451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Morphology" />
@@ -44,28 +54,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="2" />
-          <entry key="py" value="29" />
+          <entry key="md" value="3" />
+          <entry key="py" value="32" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="2" />
-          <entry key="Python" value="29" />
+          <entry key="Markdown" value="3" />
+          <entry key="Python" value="32" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="md" value="421" />
-          <entry key="py" value="5660" />
+          <entry key="md" value="466" />
+          <entry key="py" value="6441" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="421" />
+          <entry key="Markdown" value="466" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="5660" />
+          <entry key="Python" value="6441" />
         </counts>
       </usages-collector>
     </session>
@@ -73,11 +85,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition/face_recognition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="62" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="420">
-                <caret line="28" column="97" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="97" />
+              <first_editor relative-caret-position="408">
+                <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
               </first_editor>
               <second_editor />
             </state>
@@ -85,10 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/level_up/image_matcher/image_matcher.py">
+        <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition_cam/face_recognition_cam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -124,12 +148,14 @@
         <option value="$PROJECT_DIR$/Morphology/erosion_dilation.py" />
         <option value="$PROJECT_DIR$/Morphology/erosion_dilation_img.py" />
         <option value="$PROJECT_DIR$/level_up/corner_detection.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/level_up/object_detection/object_detection.py" />
         <option value="$USER_HOME$/Downloads/resimden-metin-okuma.py" />
         <option value="$PROJECT_DIR$/level_up/text_detection/text_detection.py" />
         <option value="$PROJECT_DIR$/level_up/image_paring/image_paring.py" />
         <option value="$PROJECT_DIR$/level_up/image_matcher/image_matcher.py" />
+        <option value="$PROJECT_DIR$/haar_cascade/face_recognition/face_recognition.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/haar_cascade/face_recognition_cam/face_recognition_cam.py" />
       </list>
     </option>
   </component>
@@ -178,13 +204,19 @@
             <path>
               <item name="opencv-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-example" type="462c0819:PsiDirectoryNode" />
-              <item name="level_up" type="462c0819:PsiDirectoryNode" />
+              <item name="haar_cascade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="opencv-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-example" type="462c0819:PsiDirectoryNode" />
-              <item name="level_up" type="462c0819:PsiDirectoryNode" />
-              <item name="image_matcher" type="462c0819:PsiDirectoryNode" />
+              <item name="haar_cascade" type="462c0819:PsiDirectoryNode" />
+              <item name="face_recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opencv-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opencv-example" type="462c0819:PsiDirectoryNode" />
+              <item name="haar_cascade" type="462c0819:PsiDirectoryNode" />
+              <item name="face_recognition_cam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,11 +237,11 @@
       <recent name="$PROJECT_DIR$/level_up/corner_detection" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/haar_cascade/face_recognition_cam" />
+      <recent name="$PROJECT_DIR$/haar_cascade/face_recognition" />
       <recent name="$PROJECT_DIR$/level_up/image_paring" />
       <recent name="$PROJECT_DIR$/level_up/text_detection" />
       <recent name="$PROJECT_DIR$/level_up/object_detection" />
-      <recent name="$PROJECT_DIR$/level_up" />
-      <recent name="$PROJECT_DIR$/Morphology" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,8 +256,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image_matcher">
-    <configuration name="corner_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.face_recognition_cam">
+    <configuration name="face_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv-example" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,12 +265,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/level_up" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/haar_cascade/face_recognition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_up/corner_detection/corner_detection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/haar_cascade/face_recognition/face_recognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_recognition_cam" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencv-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/haar_cascade/face_recognition_cam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/haar_cascade/face_recognition_cam/face_recognition_cam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="frotalface-video" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencv-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/frotalface-video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,50 +337,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_up/image_matcher/image_matcher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="object_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv-example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/level_up/object_detection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_up/object_detection/object_detection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="resimden-metin-okuma" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv-example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/resimden-metin-okuma.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,19 +368,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.corner_detection" />
-      <item itemvalue="Python.object_detection" />
-      <item itemvalue="Python.resimden-metin-okuma" />
       <item itemvalue="Python.text_detection" />
       <item itemvalue="Python.image_matcher" />
+      <item itemvalue="Python.face_recognition" />
+      <item itemvalue="Python.face_recognition_cam" />
+      <item itemvalue="Python.frotalface-video" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.face_recognition_cam" />
+        <item itemvalue="Python.frotalface-video" />
+        <item itemvalue="Python.face_recognition" />
         <item itemvalue="Python.image_matcher" />
         <item itemvalue="Python.text_detection" />
-        <item itemvalue="Python.resimden-metin-okuma" />
-        <item itemvalue="Python.object_detection" />
-        <item itemvalue="Python.corner_detection" />
       </list>
     </recent_temporary>
   </component>
@@ -376,6 +408,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16558966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -565,20 +598,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/level_up/image_matcher/image_matcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition/face_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="28" column="97" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="97" />
+          <first_editor relative-caret-position="408">
+            <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/level_up/image_matcher/image_matcher.py">
+    <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition/haarcascade-frontalface-default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/frotalface-video.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition_cam/haarcascade-frontalface-default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition_cam/face_recognition_cam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="12" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
