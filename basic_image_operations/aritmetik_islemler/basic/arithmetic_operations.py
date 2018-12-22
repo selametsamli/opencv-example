@@ -5,7 +5,11 @@ img = cv2.imread('saat.jpg')
 
 cv2.imshow('Saat', img)
 
-print(img[80, 80])
+
+
+print(img)
+
+
 img[80, 80] = [255, 255, 255]
 
 cv2.rectangle(img, (100, 30), (200, 120), (0, 255, 255), 2)

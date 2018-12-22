@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+
+
 kamera = cv2.VideoCapture(0)
 
 while True:
