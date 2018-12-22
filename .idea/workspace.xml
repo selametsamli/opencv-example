@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a70c6f-b009-4597-9b4f-fdeae7bd52a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haarcascade-fullbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/r2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haar_cascade_fullbody.py" beforeDir="false" afterPath="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haar_cascade_fullbody.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haar_cascade_fullbody_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haarcascade-fullbody-video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haarcascade-fullbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/video.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,27 +15,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/opencv_example$corner_detection.coverage" NAME="corner_detection Coverage Results" MODIFIED="1545499086712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up" />
     <SUITE FILE_PATH="coverage/opencv_example$erosion_dilation.coverage" NAME="erosion_dilation Coverage Results" MODIFIED="1545497465281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Morphology" />
-    <SUITE FILE_PATH="coverage/opencv_example$blurring.coverage" NAME="blurring Coverage Results" MODIFIED="1545337819415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
     <SUITE FILE_PATH="coverage/opencv_example$threshold.coverage" NAME="threshold Coverage Results" MODIFIED="1545496951967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/thresholding" />
     <SUITE FILE_PATH="coverage/opencv_example$threshold_2.coverage" NAME="threshold_2 Coverage Results" MODIFIED="1545395298843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/thresholding" />
-    <SUITE FILE_PATH="coverage/opencv_example$haarcascade_fullbody_resim__1_.coverage" NAME="haarcascade-fullbody-resim (1) Coverage Results" MODIFIED="1545514058923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody" />
-    <SUITE FILE_PATH="coverage/opencv_example$image_matcher.coverage" NAME="image_matcher Coverage Results" MODIFIED="1545502664953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up/image_matcher" />
-    <SUITE FILE_PATH="coverage/opencv_example$face_recognition_cam.coverage" NAME="face_recognition_cam Coverage Results" MODIFIED="1545512509273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/face_recognition_cam" />
+    <SUITE FILE_PATH="coverage/opencv_example$haarcascade_fullbody_resim__1_.coverage" NAME="haarcascade-fullbody-resim (1) Coverage Results" MODIFIED="1545515032391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody" />
     <SUITE FILE_PATH="coverage/opencv_example$adaptive_thresholding.coverage" NAME="adaptive_thresholding Coverage Results" MODIFIED="1545341756625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/gauss_mean" />
     <SUITE FILE_PATH="coverage/opencv_example$otsu_threshold.coverage" NAME="otsu_threshold Coverage Results" MODIFIED="1545393469542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/otsu" />
     <SUITE FILE_PATH="coverage/opencv_example$face_recognition.coverage" NAME="face_recognition Coverage Results" MODIFIED="1545511403836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/face_recognition" />
+    <SUITE FILE_PATH="coverage/opencv_example$object_detection.coverage" NAME="object_detection Coverage Results" MODIFIED="1545499777019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up/object_detection" />
+    <SUITE FILE_PATH="coverage/opencv_example$arithmetic_operations.coverage" NAME="arithmetic_operations Coverage Results" MODIFIED="1545395267717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_image_operations/aritmetik_islemler/basic" />
+    <SUITE FILE_PATH="coverage/opencv_example$text_detection.coverage" NAME="text_detection Coverage Results" MODIFIED="1545501780735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up/text_detection" />
+    <SUITE FILE_PATH="coverage/opencv_example$corner_detection.coverage" NAME="corner_detection Coverage Results" MODIFIED="1545499086712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up" />
+    <SUITE FILE_PATH="coverage/opencv_example$blurring.coverage" NAME="blurring Coverage Results" MODIFIED="1545337819415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
+    <SUITE FILE_PATH="coverage/opencv_example$haar_cascade_fullbody_video.coverage" NAME="haar_cascade_fullbody_video Coverage Results" MODIFIED="1545514621785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video" />
+    <SUITE FILE_PATH="coverage/opencv_example$image_matcher.coverage" NAME="image_matcher Coverage Results" MODIFIED="1545502664953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up/image_matcher" />
+    <SUITE FILE_PATH="coverage/opencv_example$face_recognition_cam.coverage" NAME="face_recognition_cam Coverage Results" MODIFIED="1545512509273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/face_recognition_cam" />
     <SUITE FILE_PATH="coverage/opencv_example$frotalface_video.coverage" NAME="frotalface-video Coverage Results" MODIFIED="1545512068200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/opencv_example$color_detection.coverage" NAME="color_detection Coverage Results" MODIFIED="1545338079074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
     <SUITE FILE_PATH="coverage/opencv_example$resimden_metin_okuma.coverage" NAME="resimden-metin-okuma Coverage Results" MODIFIED="1545501767893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/opencv_example$erosion_dilation_img.coverage" NAME="erosion_dilation_img Coverage Results" MODIFIED="1545498325451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Morphology" />
     <SUITE FILE_PATH="coverage/opencv_example$canny.coverage" NAME="canny Coverage Results" MODIFIED="1545338858464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
     <SUITE FILE_PATH="coverage/opencv_example$canny_image.coverage" NAME="canny_image Coverage Results" MODIFIED="1545342513050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/canny" />
-    <SUITE FILE_PATH="coverage/opencv_example$object_detection.coverage" NAME="object_detection Coverage Results" MODIFIED="1545499777019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up/object_detection" />
+    <SUITE FILE_PATH="coverage/opencv_example$haarcascade_fullbody_video.coverage" NAME="haarcascade-fullbody-video Coverage Results" MODIFIED="1545514996158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video" />
     <SUITE FILE_PATH="coverage/opencv_example$haarcascade_fullbody_resim.coverage" NAME="haarcascade-fullbody-resim Coverage Results" MODIFIED="1545514032687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
-    <SUITE FILE_PATH="coverage/opencv_example$arithmetic_operations.coverage" NAME="arithmetic_operations Coverage Results" MODIFIED="1545395267717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_image_operations/aritmetik_islemler/basic" />
-    <SUITE FILE_PATH="coverage/opencv_example$text_detection.coverage" NAME="text_detection Coverage Results" MODIFIED="1545501780735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up/text_detection" />
     <SUITE FILE_PATH="coverage/opencv_example$eye_detection.coverage" NAME="eye_detection Coverage Results" MODIFIED="1545513440779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/eye_detection" />
     <SUITE FILE_PATH="coverage/opencv_example$haar_cascade_fullbody.coverage" NAME="haar_cascade_fullbody Coverage Results" MODIFIED="1545514002896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody" />
   </component>
@@ -51,29 +55,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="3" />
-          <entry key="py" value="34" />
-          <entry key="xml" value="5" />
+          <entry key="py" value="38" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="3" />
-          <entry key="Python" value="34" />
-          <entry key="XML" value="5" />
+          <entry key="Python" value="38" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
           <entry key="md" value="466" />
-          <entry key="py" value="7373" />
+          <entry key="py" value="7763" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="466" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="7373" />
+          <entry key="Python" value="7763" />
         </counts>
       </usages-collector>
     </session>
@@ -93,51 +97,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="408">
-                <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition_cam/face_recognition_cam.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" selection-start-line="5" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haar_cascade/eye_detection/eye_detection.py">
+        <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haar_cascade_fullbody_video.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haar_cascade_fullbody.py">
+        <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haarcascade-fullbody-video.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+              <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haarcascade-fullbody.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -178,6 +157,9 @@
         <option value="$PROJECT_DIR$/haar_cascade/face_recognition_cam/face_recognition_cam.py" />
         <option value="$PROJECT_DIR$/haar_cascade/eye_detection/eye_detection.py" />
         <option value="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haar_cascade_fullbody.py" />
+        <option value="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haarcascade-fullbody-resim.py" />
+        <option value="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haar_cascade_fullbody_video.py" />
+        <option value="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haarcascade-fullbody-video.py" />
       </list>
     </option>
   </component>
@@ -232,7 +214,7 @@
               <item name="opencv-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-example" type="462c0819:PsiDirectoryNode" />
               <item name="haar_cascade" type="462c0819:PsiDirectoryNode" />
-              <item name="haar_cascade_fullbody" type="462c0819:PsiDirectoryNode" />
+              <item name="haar_cascade_fullbody_video" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,11 +235,11 @@
       <recent name="$PROJECT_DIR$/level_up/corner_detection" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video" />
       <recent name="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody" />
       <recent name="$PROJECT_DIR$/haar_cascade/eye_detection" />
       <recent name="$PROJECT_DIR$/haar_cascade/face_recognition_cam" />
       <recent name="$PROJECT_DIR$/haar_cascade/face_recognition" />
-      <recent name="$PROJECT_DIR$/level_up/image_paring" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,50 +255,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.haarcascade-fullbody-resim (1)">
-    <configuration name="eye_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv-example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/haar_cascade/eye_detection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/haar_cascade/eye_detection/eye_detection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="face_recognition_cam" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv-example" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/haar_cascade/face_recognition_cam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/haar_cascade/face_recognition_cam/face_recognition_cam.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="haar_cascade_fullbody" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv-example" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -331,6 +269,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haar_cascade_fullbody.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="haar_cascade_fullbody_video" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencv-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haar_cascade_fullbody_video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -383,20 +343,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="haarcascade-fullbody-video" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencv-example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haarcascade-fullbody-video.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.face_recognition_cam" />
-      <item itemvalue="Python.eye_detection" />
       <item itemvalue="Python.haar_cascade_fullbody" />
       <item itemvalue="Python.haarcascade-fullbody-resim" />
       <item itemvalue="Python.haarcascade-fullbody-resim (1)" />
+      <item itemvalue="Python.haar_cascade_fullbody_video" />
+      <item itemvalue="Python.haarcascade-fullbody-video" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.haarcascade-fullbody-resim (1)" />
+        <item itemvalue="Python.haarcascade-fullbody-video" />
+        <item itemvalue="Python.haar_cascade_fullbody_video" />
         <item itemvalue="Python.haarcascade-fullbody-resim" />
         <item itemvalue="Python.haar_cascade_fullbody" />
-        <item itemvalue="Python.eye_detection" />
-        <item itemvalue="Python.face_recognition_cam" />
       </list>
     </recent_temporary>
   </component>
@@ -624,26 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition/face_recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="408">
-            <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition/haarcascade-frontalface-default.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -676,6 +638,33 @@
     <entry file="file://$PROJECT_DIR$/haar_cascade/eye_detection/haarcascade-frontalface-default.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/haarcascade-fullbody-resim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haarcascade-fullbody-resim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haar_cascade_fullbody.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/haar_cascade/eye_detection/eye_detection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -686,13 +675,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody/haar_cascade_fullbody.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="408">
+            <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haar_cascade/face_recognition/face_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="180">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="62" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haar_cascade_fullbody_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haarcascade-fullbody.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haar_cascade/haar_cascade_fullbody_video/haarcascade-fullbody-video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>

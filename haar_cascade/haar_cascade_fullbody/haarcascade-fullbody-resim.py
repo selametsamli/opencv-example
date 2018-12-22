@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 img=cv2.imread('r2.jpg')
-body_cascade=cv2.CascadeClassifier('haarcascade-fullbody.xml')
+body_cascade=cv2.CascadeClassifier('haarcascade_fullbody.xml')
 
 griton=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 bodies=body_cascade.detectMultiScale(griton,1.8,2)
