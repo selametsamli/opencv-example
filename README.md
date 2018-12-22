@@ -20,3 +20,6 @@ cv2.dilate(mask, kernel, iterations=1) -> Gürültüleri arttırır.
 
 cv2.MORPH_OPEN -> istediğimiz renk dışında renk varsa bu rengi daha da belirginleştirir.
 cv2.MORPH_CLOSE -> istediğimiz renk dışında renk varsa bu rengin görünürlüğünü azaltır.
+
+
+cv2.goodFeaturesToTrack(görsel, maksimum nokta sayısı, hassasiyet, mesafe)

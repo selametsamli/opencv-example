@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a70c6f-b009-4597-9b4f-fdeae7bd52a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Morphology/erosion_dilation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Morphology/erosion_dilation_img.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Morphology/j.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Morphology/j2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Morphology/j3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_up/corner_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_up/kose-bulma.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/opencv_example$corner_detection.coverage" NAME="corner_detection Coverage Results" MODIFIED="1545499086712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/level_up" />
     <SUITE FILE_PATH="coverage/opencv_example$erosion_dilation.coverage" NAME="erosion_dilation Coverage Results" MODIFIED="1545497465281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Morphology" />
     <SUITE FILE_PATH="coverage/opencv_example$blurring.coverage" NAME="blurring Coverage Results" MODIFIED="1545337819415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations" />
     <SUITE FILE_PATH="coverage/opencv_example$threshold.coverage" NAME="threshold Coverage Results" MODIFIED="1545496951967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter_operations/thresholding" />
@@ -43,27 +40,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="24" />
+          <entry key="py" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="24" />
+          <entry key="Python" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="md" value="277" />
-          <entry key="py" value="4252" />
+          <entry key="md" value="327" />
+          <entry key="py" value="4597" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="277" />
+          <entry key="Markdown" value="327" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="4252" />
+          <entry key="Python" value="4597" />
         </counts>
       </usages-collector>
     </session>
@@ -79,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Morphology/erosion_dilation_img.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -92,11 +89,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/level_up/corner_detection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <first_editor relative-caret-position="360">
+                <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -129,8 +138,9 @@
         <option value="$PROJECT_DIR$/filter_operations/thresholding/threshold_2.py" />
         <option value="$PROJECT_DIR$/filter_operations/thresholding/threshold.py" />
         <option value="$PROJECT_DIR$/Morphology/erosion_dilation.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Morphology/erosion_dilation_img.py" />
+        <option value="$PROJECT_DIR$/level_up/corner_detection.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -176,6 +186,11 @@
               <item name="opencv-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv-example" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="opencv-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opencv-example" type="462c0819:PsiDirectoryNode" />
+              <item name="level_up" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -192,11 +207,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/level_up" />
       <recent name="$PROJECT_DIR$/Morphology" />
       <recent name="$PROJECT_DIR$/filter_operations/thresholding" />
       <recent name="$PROJECT_DIR$/filter_operations/otsu" />
       <recent name="$PROJECT_DIR$/filter_operations/gauss_mean" />
-      <recent name="$PROJECT_DIR$/filter_operations/canny" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,8 +226,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.erosion_dilation_img">
-    <configuration name="arithmetic_operations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.corner_detection">
+    <configuration name="corner_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv-example" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,12 +235,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic_image_operations/aritmetik_islemler/basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/level_up" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_image_operations/aritmetik_islemler/basic/arithmetic_operations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_up/corner_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,18 +339,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.threshold_2" />
-      <item itemvalue="Python.arithmetic_operations" />
       <item itemvalue="Python.threshold" />
       <item itemvalue="Python.erosion_dilation" />
       <item itemvalue="Python.erosion_dilation_img" />
+      <item itemvalue="Python.corner_detection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.corner_detection" />
         <item itemvalue="Python.erosion_dilation_img" />
         <item itemvalue="Python.erosion_dilation" />
         <item itemvalue="Python.threshold" />
         <item itemvalue="Python.threshold_2" />
-        <item itemvalue="Python.arithmetic_operations" />
       </list>
     </recent_temporary>
   </component>
@@ -354,13 +369,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16558966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16558966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28219178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28219178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Morphology/erosion_dilation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -510,6 +516,26 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/level_up/corner_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
